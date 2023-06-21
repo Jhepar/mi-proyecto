@@ -77,7 +77,8 @@ header {
     box-shadow: 0 3px 10px -5px #5f5f5f;
 
 }
-.menu-item {
+
+.menu-items {
     display: inline-block;
     justify-content: space-between;
     margin-left: 20px; 
@@ -92,17 +93,21 @@ h1 {
 h2 {
     font-size: 28px;
 }
-
-.boton {
+/*
+a {
+    display: block; 
+    width: 50px;
     background-color: #af599e
     color#fbfbfb
     padding: 12px 20px;
-    border-radius: 50px;
+    border-radius: 10px;
     font-size: 20px; 
-    display: inline-block; 
-}
+    margin: 150px 130px
+    
+}*/
 
 footer {
+    height: 90px;
     background-color: #af599e 
     color #fbfbfb
     display: flex;
@@ -116,10 +121,19 @@ footer {
     height: auto;
 }
 
-.mi-foto-img {
+figure {
     width: 400px;
     border radius= 50%;
+ 
 
+}
+
+#inicio {
+    min-height: 100vh;
+}
+
+#Contacto {
+    min-height: 100vh;
 }
 
 .Presentacion{
@@ -131,6 +145,3 @@ footer {
     color:  #0f0f0f;
 }
 
-img{
-    max-width: 100%;
-}
