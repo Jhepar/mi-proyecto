@@ -81,18 +81,23 @@ header {
 .menu-items {
     display: inline-block;
     justify-content: space-between;
-    margin-left: 20px; 
     width: 100px;
     align-items: center;
+   
 }
 
 h1 {
     font-size: 36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 h2 {
     font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
 /*
 a {
     display: block; 
@@ -108,13 +113,10 @@ a {
 
 footer {
     height: 90px;
-    background-color: #af599e 
-    color #fbfbfb
-    display: flex;
-    justify-content: space-between;
+    background-color: #af599e color #fbfbfb display: flex;
     align-items: center;
 
- }
+}
 
 .logojp {
     width: 80px;
@@ -122,10 +124,17 @@ footer {
 }
 
 figure {
+    display: flex;
     width: 400px;
-    border radius= 50%;
- 
-
+    height: auto;
+    margin-top: 80px
+    margin-bottom: 20px;
+    border radius= 80%;
+    justify-content: center;
+    padding: 80px;
+    border: 0px;
+   
+    
 }
 
 #inicio {
@@ -136,12 +145,19 @@ figure {
     min-height: 100vh;
 }
 
-.Presentacion{
-
-}
-
-.Contacto{
+.Contacto {
     background-color: rgba(175, 89, 158, 0.3);
-    color:  #0f0f0f;
+    color: #0f0f0f;
 }
 
+.iconos {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 90px;
+    width: 100%;
+    top: 50px;
+    left: 0px;
+}
