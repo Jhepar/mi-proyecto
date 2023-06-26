@@ -129,25 +129,16 @@ h2 {
     padding: 20px;
 }
 
-/*
-a {
-    #boton {
-    display: block;
-    background-color: #af599e color#fbfbfb 
-    border-radius: 20px;
-    padding: 15px;
-    
-    display: block; 
+a.boton {
+    border-radius: 25px;
+    margin: 20px px;
+    background-color: #af599e;
+    color: #fbfbfb;
+    padding: 15px 15px;
     width: 50px;
-    background-color: #af599e
-    color#fbfbfb
-    padding: 12px 20px;
-    border-radius: 10px;
     font-size: 20px; 
-    margin: 150px 130px
-    
-}*/
-
+    margin-top: 20px;  
+}
 
 #Contacto {
     display: flex;
@@ -181,9 +172,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #af599e color #fbfbfb
-    padding-bottom: 100px;
+    background-color: #af599e;
+    color: #fbfbfb;
     height: 90px;
     width: 100%;
+
 
 }
